@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{url_for('static', filename ='css/main.css')}}"> 
 </head>
 <body>
-    <img src="..\Pictures\dataana.jpg">
+    <img src="{{url_for('static', filename = 'css/logo.jpg')}}">
     <br>
     <form action="greet" method="post">
         {% for message in get_flashed_messages() %}
