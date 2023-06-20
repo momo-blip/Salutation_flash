@@ -1,2 +1,2 @@
 # Salutation_flash
-I am learning flask
+This is a simple greeting app.
